@@ -1,3 +1,9 @@
+//
+// Text and header color: #2a1d30
+// Header addition color: #ef4942
+//
+//
+
 // Ribbon theme for Shower HTML presentation engine: github.com/shower/shower
 // Copyright © 2010–2014 Vadim Makeev, pepelsbey.net
 // Licensed under MIT license: github.com/shower/shower/wiki/MIT-License
@@ -5,15 +11,17 @@
 // Layout
 $width:1024px;  // Slide width, permanent in most cases
 $height:640px;  // Slide height, 640px for 16:10, 768px for 4:3
-$top:105px;     // Top padding above slide content
-$sides:120px;   // Left and right paddings around slide content
+$top:100px;     // Top padding above slide content
+$sides:100px;   // Left and right paddings around slide content
 $break:1324px;  // Window width for small thumbnails to appear
 $ratio:'16x10'; // Available options: '16x10' or '4x3'
 
 // Colors
 $blue:#4B86C2;
 $grey:#2A2B2D;
-$yellow:#FAFAA2;
+$yellow:#ebe5d9;
+$black:#2a1d30;
+$red:#f16b66;
 
 // Mixins
 @mixin retina {
