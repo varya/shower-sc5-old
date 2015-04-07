@@ -104,6 +104,9 @@ a {
     background-size: 50px 50px;
     content: "";
   }
+  .list &:before {
+      display: none;
+  }
 	&:after {
 		position:absolute;
 		bottom:0;
@@ -352,8 +355,8 @@ a {
 			left:0;
 			width:100%;
 			text-align:center;
-			line-height:1;
-			font-size:150px;
+			line-height:1.4;
+			font-size:125px;
 			transform:translateY(-50%);
 			a {
 				@include underline(currentColor, 0.11);
@@ -517,6 +520,7 @@ a {
 					left:0;
 					z-index:2;
 					content:'';
+          display: none;
 					}
 				}
 			// Cover Shout
