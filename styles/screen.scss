@@ -304,6 +304,7 @@ a {
 			}
 		}
 	// Cover Shout
+  &.chapter,
 	&.cover,
 	&.shout {
 		z-index:1;
@@ -364,6 +365,16 @@ a {
 				}
 			}
 		}
+  // Chapter
+  &.chapter {
+    h2 {
+      position: absolute;
+      top: 50%;
+      left: 0;
+			transform:translateY(-50%);
+      font-size: 3em;
+    }
+  }
 	// Place
 	.place {
 		position:absolute;
